@@ -4,7 +4,6 @@ box-sizing: border-box;
 
 * {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-
 }
 
 .nav {
@@ -27,16 +26,20 @@ td {
   vertical-align: middle;
 }
 
-.arrpw {
+i {
   color: #666666;
   height: 21px;
   width: 13px;
 }
 
+i:hover {
+  background-color: #AAAAAA;
+}
+
 .title {
   color: #666666;
   font-size: 22px;
-  font-weight: 300;:
+  font-weight: 300;
   height: 21px;
   letter-spacing: 1px;
   line-height: 26px;
@@ -46,6 +49,10 @@ td {
 
 .sort {
   float: right;
+}
+
+.sort:hover {
+  background-color: #AAAAAA;
 }
 
 .list {
@@ -85,7 +92,7 @@ p.direction {
   font-size: 12px;
   height: 11.88px;
   line-height: 17px;
-  text-align: center;
+  text-align: left;
   width: 125px;
 }
 
@@ -93,7 +100,7 @@ p.address {
   margin-top: 0;
 }
 
-.out  {
+.out {
   color: #FFFACD;
 }
 
@@ -111,7 +118,7 @@ p.address {
   font-size: 12px;
   height: 18px;
   line-height: 14px;
-  text-align: center;
+  text-align: left;
   width: 42px;
 }
 
@@ -120,7 +127,7 @@ p.address {
   font-size: 12px;
   height: 18px;
   line-height: 14px;
-  text-align: center;
+  text-align: justify;
   width: 47px;
 }
 
@@ -129,6 +136,6 @@ p.address {
   font-size: 20px;
   height: 37px;
   line-height: 24px;
-  text-align: left;
+  text-align: justify;
   width: 79px;
 }
