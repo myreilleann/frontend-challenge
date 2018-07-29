@@ -1,0 +1,134 @@
+*, *:before, *:after {
+box-sizing: border-box;
+}
+
+* {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+
+}
+
+.nav {
+  background-color: #FFCC00;
+  height: 64px;
+  margin: 0 auto;
+  width: 375px;
+}
+
+table {
+  width: 100%;
+}
+
+table:hover {
+  background-color: #AAAAAA;
+  transition: 0.3s;
+}
+
+td {
+  vertical-align: middle;
+}
+
+.arrpw {
+  color: #666666;
+  height: 21px;
+  width: 13px;
+}
+
+.title {
+  color: #666666;
+  font-size: 22px;
+  font-weight: 300;:
+  height: 21px;
+  letter-spacing: 1px;
+  line-height: 26px;
+  margin: 0 auto;
+  width: 202px;
+}
+
+.sort {
+  float: right;
+}
+
+.list {
+  background-color: #666666;
+  height: 100%;
+  margin: 0 auto;
+  width: 375px;
+}
+
+.number {
+  background-color: #000000;
+  color: #FFCC00;
+  font-weight: 500;
+  font-size: 34px;
+  height: 38.84p;
+  line-height: 41px;
+  text-align: center;
+  width: 57px;
+}
+
+.direction {
+  color: #FEFEFE;
+  font-size: 20px;
+  height: 19px;
+  line-height: 29px;
+  text-align: center;
+  width: 103px;
+}
+
+p.direction {
+  margin-top: 0;
+  margin-bottom; 0;
+}
+
+.address {
+  color: #FEFEFE;
+  font-size: 12px;
+  height: 11.88px;
+  line-height: 17px;
+  text-align: center;
+  width: 125px;
+}
+
+p.address {
+  margin-top: 0;
+}
+
+.out  {
+  color: #FFFACD;
+}
+
+.eta {
+  color: #FEFEFE;
+  font-size: 20px;
+  height: 37.33px;
+  line-height: 24px;
+  text-align: left;
+  width: 53px;
+}
+
+.min {
+  color: #FEFEFE;
+  font-size: 12px;
+  height: 18px;
+  line-height: 14px;
+  text-align: center;
+  width: 42px;
+}
+
+.back {
+  color: #FEFEFE;
+  font-size: 12px;
+  height: 18px;
+  line-height: 14px;
+  text-align: center;
+  width: 47px;
+}
+
+.time {
+  color: #FEFEFE;
+  font-size: 20px;
+  height: 37px;
+  line-height: 24px;
+  text-align: left;
+  width: 79px;
+}
