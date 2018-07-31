@@ -2,8 +2,13 @@
 box-sizing: border-box;
 }
 
-* {
-  font-family: "Analogue";
+@font-face {
+    font-family: myFFont;
+    src: url(analogue55regular.ttf);
+}
+
+body {
+  font-family: myFont;
 }
 
 body {
@@ -40,7 +45,7 @@ table {
 
 td {
   height: 66px;
-  width: 50%;
+  width: 40%;
   vertical-align: middle;
 }
 
@@ -102,58 +107,58 @@ i:hover {
 .direction {
   color: #FEFEFE;
   font-size: 20px;
-  height: 19px;
-  line-height: 29px;
-  text-align: center;
-  width: 103px;
+  /* height: 19px; */
+  /* line-height: 29px; */
+  /* text-align: center; */
+  /* width: 103px; */
 }
 
 .address {
   color: #FEFEFE;
   font-size: 12px;
-  height: 11.88px;
+  /* height: 11.88px;
   line-height: 17px;
   text-align: left;
-  width: 125px;
+  width: 125px; */
 }
 
 .out {
   color: #FFFACD;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .eta {
   color: #FEFEFE;
   font-size: 20px;
-  height: 37.33px;
+  /* height: 37.33px;
   line-height: 24px;
   text-align: right;
-  width: 53px;
+  width: 53px; */
 }
 
 .min {
   color: #FEFEFE;
   font-size: 12px;
-  height: 18px;
+  /* height: 18px;
   line-height: 14px;
   text-align: right;
-  width: 42px;
+  width: 42px; */
 }
 
 .back {
   color: #FEFEFE;
   font-size: 12px;
-  height: 18px;
+  /* height: 18px;
   line-height: 14px;
   text-align: justify;
-  width: 47px;
+  width: 47px; */
 }
 
 .time {
   color: #FEFEFE;
   font-size: 20px;
-  height: 37px;
+  /* height: 37px;
   line-height: 24px;
   text-align: justify;
-  width: 79px;
+  width: 79px; */
 }
