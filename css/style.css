@@ -107,6 +107,7 @@ i:hover {
 .direction {
   color: #FEFEFE;
   font-size: 20px;
+  margin-left: 10px;
   /* height: 19px; */
   /* line-height: 29px; */
   /* text-align: center; */
@@ -116,6 +117,7 @@ i:hover {
 .address {
   color: #FEFEFE;
   font-size: 12px;
+  margin-left: 10px;
   /* height: 11.88px;
   line-height: 17px;
   text-align: left;
@@ -130,35 +132,39 @@ i:hover {
 .eta {
   color: #FEFEFE;
   font-size: 20px;
+  padding-right: 10px;
   /* height: 37.33px;
-  line-height: 24px;
+  line-height: 24px; */
   text-align: right;
-  width: 53px; */
+  /* width: 53px; */
 }
 
 .min {
   color: #FEFEFE;
   font-size: 12px;
+  padding-right: 10px;
   /* height: 18px;
-  line-height: 14px;
+  line-height: 14px; */
   text-align: right;
-  width: 42px; */
+  /* width: 42px; */
 }
 
 .back {
   color: #FEFEFE;
   font-size: 12px;
+  padding-right: 10px;
   /* height: 18px;
-  line-height: 14px;
-  text-align: justify;
-  width: 47px; */
+  line-height: 14px; */
+  text-align: right;
+  /* width: 47px; */
 }
 
 .time {
   color: #FEFEFE;
   font-size: 20px;
+  padding-right: 10px;
   /* height: 37px;
-  line-height: 24px;
-  text-align: justify;
-  width: 79px; */
+  line-height: 24px; */
+  text-align: right;
+  /* width: 79px; */
 }
