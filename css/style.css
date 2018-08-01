@@ -2,13 +2,8 @@
 box-sizing: border-box;
 }
 
-@font-face {
-    font-family: myFFont;
-    src: url(analogue55regular.ttf);
-}
-
-body {
-  font-family: myFont;
+* {
+  font-family: 'Montserrat', sans-serif;
 }
 
 body {
